@@ -1,0 +1,19 @@
+.Home{
+    height: 106px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #b2bec3;
+    border-bottom: 1px solid #b2bec3;
+}
+
+.title{
+    font-family: 'STIX Two Math', serif;
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-family: 'Zilla Slab', sans-serif;
+    padding: 0 1rem;
+}
