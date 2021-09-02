@@ -1,0 +1,11 @@
+.imgEureka{
+    width: 100%;
+    position: relative;
+}
+
+.imgEureka img{
+    position: absolute;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
