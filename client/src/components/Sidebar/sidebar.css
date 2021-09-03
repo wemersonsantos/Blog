@@ -4,11 +4,10 @@
 
 /* Posição e tamanho do burger button */
 .bm-burger-button {
-    position: relative;
+    position: sticky;
     width: 2rem;
     height: 1.3rem;
-    left: 45vw;
-    top: 15px;
+    left: calc(calc(100vw / 2) - 32px / 2);
   }
   
   /* Cor das barras */

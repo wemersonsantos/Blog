@@ -1,0 +1,45 @@
+.imgContainer{
+    width: 100%;
+    position: relative;
+}
+
+.img{
+    max-height: 400px;
+    height: 400px;
+    background-image: url('https://blog.ead.unipar.br/wp-content/uploads/2020/07/tecnologias-aplicadas-no-ensino-de-matem%C3%A1tica.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+
+.msgWelcome{
+    font-family: 'Zilla Slab', sans-serif;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+#msgTitle{
+    position: absolute;
+    top: 260px;
+    max-width: 301px;
+    left: calc(calc(100vw / 2) - 301px / 2);
+}
+
+#msgSubTitle{
+    position: absolute;
+    top: 350px;
+    padding: .9rem;
+    max-width: 272.46px;
+    left: calc(calc(100vw / 2) - 301.23px / 2);
+}
+
+#buttonWrite{
+    font-size: 1.1rem;
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+    left: calc(calc(100vw / 2) - 82.55px / 2);
+    background-color: red;
+    border-radius: 5%;
+    padding: .5rem;
+}
